@@ -158,12 +158,16 @@ header {
     color: #162938;
     font-weight: 500;
     pointer-events: none;
-    transition: .5s;
+    top: -5px;
 }
 
-.input-box input:focus~label,
-.input-box input:valid~label {
-    top: -5px;
+
+
+.input-box input:invalid {
+    color: rgba(255, 60, 60, 0.668);
+}
+.input-box input:valid {
+    color: rgba(16, 223, 16, 0.686);
 }
 
 .input-box input {

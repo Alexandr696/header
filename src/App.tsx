@@ -36,11 +36,11 @@ function App() {
           <div className='form-box login'>
             <h2>Вход</h2>
             <form action="#">
-              <div className='input-box'>
-                <span className='icon'><img src={mail} alt="noicon" /></span>
-                <input type="email" required/>
-                <label>Email</label>
-              </div>
+            <div className='input-box'>
+              <span className='icon'><img src={mail} alt="noicon" /></span>
+              <input className='email' type="email" required />
+              <label>Email</label>
+            </div>
               <div className='input-box'>
                 <span className='icon'><img src={lock} alt="noicon" /></span>
                 <input type="password" required />
@@ -77,7 +77,7 @@ function App() {
             </div>
             <div className='input-box'>
               <span className='icon'><img src={mail} alt="noicon" /></span>
-              <input type="text" required />
+              <input type="email" required={true} />
               <label>Email</label>
             </div>
             <div className='input-box'>
